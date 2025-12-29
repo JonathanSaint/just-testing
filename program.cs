@@ -1,6 +1,10 @@
-#include <stdio.h>
+//! Runs using dotnet run
+using System;
 
-int main() {
-  printf("Hello World!");
-  return 0;
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Hello, World!");
+    }
 }
