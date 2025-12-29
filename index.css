@@ -4,3 +4,52 @@ p {
   text-align: center;
   color: red;
 }
+
+/*------------id selector(Note: An id name cannot start with a number!)--------*/
+#para1 {
+  text-align: center;
+  color: red;
+}
+
+/*----------class selector------------------*/
+.center {
+  text-align: center;
+  color: red;
+}
+/*You can also specify that only specific HTML elements should be affected by a class.*/
+p.center {
+  text-align: center;
+  color: red;
+}
+/*HTML elements can also refer to more than one class.
+In this example the <p> element will be styled according to class="center" and to class="large": 
+<p class="center large">This paragraph refers to two classes.</p>
+*/
+
+/*Universal selector*/
+* {
+  text-align: center;
+  color: blue;
+}
+
+/*Grouping Selector*/
+h1 {
+  text-align: center;
+  color: red;
+}
+
+h2 {
+  text-align: center;
+  color: red;
+}
+
+p {
+  text-align: center;
+  color: red;
+}
+/*In this example we have grouped the selectors from the code above using a coma: */
+
+h1, h2, p {
+  text-align: center;
+  color: red;
+}
