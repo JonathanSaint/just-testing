@@ -1,6 +1,6 @@
 ## 📘 JavaScript Assignment — JavaScript Syntax Basics (Week 1)
 
-**Due:** Next Thursday
+**Due:** Next Saturday
 **Topic:** Variables, Data Types, Operators, Conditionals, Loops
 
 ---

@@ -1,6 +1,6 @@
 # 📘 HTML Assignment — Core HTML Elements (Week 1)
 
-**Due:** Next Thursday
+**Due:** Next Saturday
 **Topic:** HTML Structure, Text, Links, Images, Forms
 
 ---

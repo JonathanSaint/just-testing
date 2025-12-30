@@ -1,6 +1,6 @@
 ## 📘 C# Assignment — Methods & Syntax (Week 1)
 
-**Due:** Next Thursday
+**Due:** Next Saturday
 **Topic:** Method Creation, Parameters, Return Values, Method Calls
 
 ---

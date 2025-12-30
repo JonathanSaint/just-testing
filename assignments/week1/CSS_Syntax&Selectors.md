@@ -1,6 +1,6 @@
 ## 📘 CSS Assignment — CSS Syntax & Selectors (Week 1)
 
-**Due:** Next Thursday
+**Due:** Next Saturday
 **Topic:** CSS Syntax, Selectors, Colors, Fonts, Box Model
 
 ---

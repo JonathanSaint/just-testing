@@ -1,6 +1,6 @@
 ## 📘 C Programming Assignment — Functions & Syntax (Week 1)
 
-**Due:** Next Thursday
+**Due:** Next Saturday
 **Topic:** Function Creation, Parameters, Return Values, Function Calls
 
 ---
