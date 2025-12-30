@@ -1,0 +1,98 @@
+/*2️⃣ Element Selector*/
+p {
+    color:blue;
+    font-size: 16px;
+}
+
+/*3️⃣ Class Selector*/
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/*4️⃣ ID Selector*/
+#main-title {
+    font-size: 32px;
+    text-align: center;
+}
+
+/*5️⃣ Backgrounds & Colors*/
+body {
+    background-color: lightgray;
+    color: black;
+}
+
+/*6️⃣ Fonts*/
+* {
+    font-family: Arial, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: wavy;
+}
+
+/*7️⃣ Box Model*/
+.card {
+    width: 300px;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 15px;
+}
+
+/*8️⃣ Hover Effect (Pseudo-class selector)*/
+.button {
+    background-color: blueviolet;
+    color:black;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+.button:hover {
+    background-color: aqua;
+    color: brown;
+}
+
+/*9️⃣ Layout Basics*/
+/*centering <div> horizontally*/
+.horizontal-div {
+    width: 50%;
+    align-content: center;
+    margin: 0 auto; /* 0 for top/bottom, auto for left/right*/
+    /* long-term solution
+    width="300px";
+    margin-left: auto;
+    margin-right: auto;*/
+}
+/*Spacing between elements using margin*/
+.horizontal-div {
+    margin: 10px 20px 10px 20px;
+}
+
+/*🔟 Bonus Challenge (Optional)*/
+ul {
+    list-style-type: none; /*removes the bullet points*/
+    margin: 0; /* removes default browser spacing*/
+    padding: 0; /* removes default browser indentation*/
+    overflow: hidden; /* keeps background colors contained*/
+    background-color: darkgreen;
+}
+/* display items horizontally*/
+li {
+    float: left; /* or use display: inline-block;*/
+}
+/* optional styling for the links to look better*/
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: chartreuse; /*changes color when you hover your cursor*/
+}
+/*
+✔ CSS file is linked correctly 
+✔ All selectors work as expected
+✔ Comments explain each CSS rule 
+✔ No inline styles are used 
+✔ Code is clean and readable
+*/
