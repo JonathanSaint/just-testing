@@ -10,7 +10,7 @@
 Complete all the tasks below in a **single JavaScript file** named:
 
 ```
-week3_javascript_syntax_assignment.js
+week1_javascript_syntax_assignment.js
 ```
 
 For **each task**:
