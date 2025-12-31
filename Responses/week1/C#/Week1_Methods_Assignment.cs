@@ -135,14 +135,88 @@ namespace Name //🗣️ “All my code lives inside this box called Name.”
         }
     }
     //5️⃣ Check Even or Odd
-    static void Main()
+    class CheckEvenOdd
+    {
+        // Method that checks whether a number is even or odd
+        static string IsEven(int number)
         {
-            int result = IsEven(8);
-            Console.WriteLine(result);
+            if (number % 2 == 0)
+            {
+                return "Even";
+            }
+            else
+            {
+                return "Odd";
+            }
         }
-        static int IsEven(int number)
+        /*
+        static void Main()
         {
-            return (2 % === 0);
+            Console.WriteLine(IsEven(5));
+            Console.WriteLine(IsEven(3));
+            Console.WriteLine(IsEven(8));
+            Console.WriteLine(IsEven(97));
+            Console.WriteLine(IsEven(54));
+        }
+        */
+    }
+
+    //6️⃣ Mini Calculator Method
+    class MiniCalculator
+    {
+        static double Calculate(string operation, double a, double b)
+        {
+            if (operation == "add")
+            {
+                return a + b;
+            }
+            else if (operation == "subtract")
+            {
+                return a - b;
+            }
+            else if (operation == "multiply")
+            {
+                return a * b;
+            }
+            else if (operation == "divide")
+            {
+                return a / b;
+            }
+            if (b == 0)
+            {
+                Console.WriteLine("Invalid Operation");
+                return 0;
+            }
+
+            return a / b;
+
+            /*
+                    }
+                    static void Main()
+                    {
+                        Console.WriteLine(Calculate("add", 5, 6));
+                        Console.WriteLine(Calculate("subtract", 5, 6));
+                        Console.WriteLine(Calculate("divide", 5, 6));
+                        Console.WriteLine(Calculate("multiply", 5, 6));
+                    }
+            */
+        }
+
+        //7️⃣ Bonus Challenge (Optional)
+        class Exchange
+        {
+            static double ConvertToDollars(double ugx)
+            {
+                double ExchangeRate = 3800;
+
+                double Dollars = ugx / ExchangeRate;
+
+                return Dollars;
+            }
+            static void Main()
+            {
+                Console.WriteLine(ConvertToDollars(670000));
+            }
         }
     }
 }
