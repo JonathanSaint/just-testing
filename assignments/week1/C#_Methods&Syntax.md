@@ -10,7 +10,7 @@
 Complete all the tasks below in a **single C# console application file** named:
 
 ```
-Week3_Methods_Assignment.cs
+Week1_Methods_Assignment.cs
 ```
 
 For **each task**:
