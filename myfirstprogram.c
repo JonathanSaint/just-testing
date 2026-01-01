@@ -22,5 +22,12 @@ int main() {           // Body of the program starts here
 
   printf( "The answer is = %d\n", result); // Printing the result on the screen, %d is a format specifier used for integer type.
   printf("The answer of %d + %d = %d\n", a, b, result);  // Printing values of a, b and result using format specifiers.
-  
+
+  double c, d, result2;
+  c = 15.76;
+  d = 25.897;
+  result2 = c * d; // Multiplying values of c and d and storing it in result2 variable.
+
+  printf("The answer is = %f\n", result2);
+  printf("The answer of %f x %f = %f\n", c, d, result2); // Printing values of c, d and result2 using format specifiers. %f is used for float/double type.
 }
