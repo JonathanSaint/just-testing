@@ -10,7 +10,7 @@
 Complete all the tasks below in a **single HTML file** named:
 
 ```
-week3_html_elements_assignment.html
+week1_html_elements_assignment.html
 ```
 
 For **each task**:

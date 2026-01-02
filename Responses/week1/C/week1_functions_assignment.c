@@ -2,6 +2,7 @@
 
 #include<stdio.h>
 #include<string.h> //Needed for strcmp
+//TODO: REVISE MINI CALCULATOR METHOD
 
 char a = 5;
 char b = 6;
