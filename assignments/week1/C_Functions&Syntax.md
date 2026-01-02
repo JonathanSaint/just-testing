@@ -10,7 +10,7 @@
 Complete all the tasks below in a **single C source file** named:
 
 ```
-week3_functions_assignment.c
+week1_functions_assignment.c
 ```
 
 For **each task**:

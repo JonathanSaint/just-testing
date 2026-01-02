@@ -8,26 +8,24 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\jarin\\.nuget\\packages\\": {}
+    "C:\\Users\\TIMO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jarin\\just-testing\\just-testing.csproj",
+      "projectUniqueName": "C:\\Users\\TIMO\\just-testing\\just-testing.csproj",
       "projectName": "just-testing",
-      "projectPath": "C:\\Users\\jarin\\just-testing\\just-testing.csproj",
-      "packagesPath": "C:\\Users\\jarin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jarin\\just-testing\\obj\\",
+      "projectPath": "C:\\Users\\TIMO\\just-testing\\just-testing.csproj",
+      "packagesPath": "C:\\Users\\TIMO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\TIMO\\just-testing\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jarin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\TIMO\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
