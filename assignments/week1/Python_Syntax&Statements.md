@@ -10,7 +10,7 @@
 Complete all the tasks below in a **single Python file** named:
 
 ```
-week3_python_syntax_assignment.py
+week1_python_syntax_assignment.py
 ```
 
 For **each task**:
