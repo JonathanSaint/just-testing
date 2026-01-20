@@ -3,7 +3,8 @@ You’ll **read the code**, **spot what’s wrong**, and **think about what’s 
 
 ---
 
-````markdown
+````
+markdown
 # 📘 JavaScript Assignment: Objects & Conditions (Beginner)
 
 ## 🧠 Goal

@@ -1,0 +1,31 @@
+#profileCard {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    color: rgb(14, 8, 8);
+    max-width: 100%;
+}
+
+#username-input {
+    align-items: center;
+    justify-content: center;
+}
+
+#Preview {
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    padding: 2px;
+    width: 87px;
+    margin-left: 180px;
+}
+
+#display {
+    padding: 20px;
+    color: black;
+}
