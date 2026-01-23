@@ -88,3 +88,52 @@ runTask(informUser);
 
 
 //8️⃣ Returning a Function (Higher-Order Function)
+function multiplier(factor) {
+    return function (number) {
+        return number * factor;
+    };
+}
+const double = multiplier(2);
+const triple = multiplier(3);
+
+console.log(double(5));
+console.log(triple(7));
+
+//9️⃣ Immediately Invoked Function Expression (IIFE)
+/* 
+IIFE runs immediately
+Prevents global scope pollution
+Creates private variables
+Enables encapsulation
+Used heavily before ES6
+Foundation for modules
+*/
+
+(function() {
+    console.log("IIFE Executed")
+})();
+
+//🔟 Bonus Challenge (Optional)
+console.log(greetings());
+sayHeyThere();
+
+function greetings() {
+    const sayHeyThere = function() {
+        console.log("Hi, There!");
+    }
+}
+/*
+An error is refused that sayHeyThere is not defined since javascript does not hoist expressions
+- Function expressions are NOT hoisted with their implementation
+- Only the variable declaration is hoisted (with value = undefined)
+- Calling it before assignment causes a ReferenceError or TypeError
+*/
+
+/* 
+✔ Runs without errors (except commented examples) 
+✔ Demonstrates function hoisting correctly 
+✔ Returns multiple values properly 
+✔ Treats functions as first-class values 
+✔ Contains clear, meaningful comments 
+✔ Uses console.log() to show outputs 
+*/
