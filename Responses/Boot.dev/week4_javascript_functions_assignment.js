@@ -10,7 +10,7 @@ function sayHello() {
 
 //2️⃣ Function Expressions & No Hoisting
 
-//! This works beacause javascript hoists the function.
+//! This works because javascript hoists the function.
 /*
 sayHi();
 

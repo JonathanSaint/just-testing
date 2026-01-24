@@ -19,7 +19,7 @@ console.log(isLessOrEqual);
 
 
 //2️⃣ Basic if...else Condition
-//! Use Parameters and Arguements for reusability.
+//! Use Parameters and Arguments for reusability.
 function ageChecker(age) {
     if (age >= 18) {
         console.log("You are allowed to vote");
@@ -137,7 +137,7 @@ let username = null;
 console.log(username ?? "Guest User");
 
 // 🔟 Bonus Challenge (Optional)
-//0 is flasey so logic breaks if used wrongly
+//0 is falsey so logic breaks if used wrongly
 
 function balanceChecker() {
     const balance = null;
