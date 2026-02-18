@@ -13,8 +13,8 @@ function setStatus() {
 }
 console.log(setStatus());
 /*
-The two outputs are different because the first status is 
-set to a global scope and the second one to local meaning it 
+The two outputs are different because the first status is.
+set to a global scope and the second one to local meaning it.
 only exists inside the function t has been declared in.
 */
 

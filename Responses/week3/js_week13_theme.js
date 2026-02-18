@@ -1,7 +1,7 @@
-/* 
-Scenario:
-Users want dark and light modes.
-
-Problem to Solve:
-Toggle styles using DOM manipulation.
-*/
+function ageCounter() {
+    if (age >= 18) {
+       console.log("You are an Adult");
+    } else {
+        console.log("You are a minor")
+    }
+}
