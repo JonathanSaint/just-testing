@@ -161,6 +161,7 @@ for (let i = 0; i < fruits.length; i++) {
 
 let numbers = [4, 19, 2, 99, 23];
 
+//!Always use arr because it creates a reusable function
 function largestNumber(arr) {
   let largest = arr[0];
 
