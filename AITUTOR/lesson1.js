@@ -161,6 +161,7 @@ for (let i = 0; i < fruits.length; i++) {
 
 let numbers = [4, 19, 2, 99, 23];
 
+//!Always use arr because it creates a reusable function
 function largestNumber(arr) {
   let largest = arr[0];
 
@@ -193,18 +194,17 @@ const nums = [1, 2, 3, 4, 5];
 
 function doubleNumbers(arr) {
   const result = [];
-  
+
   for (let i = 0; i < arr.length; i++) {
     result.push(arr[i] * 2);
   }
-  return result
+  return result;
 }
 
 console.log(doubleNumbers([1, 2, 3, 4, 5]));
 
-
 function getEvenNumbers(arr) {
-let result = [];
+  let result = [];
 
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] % 2 === 0) {
